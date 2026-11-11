@@ -1,0 +1,57 @@
+{
+  "_note": "Синтетические пользователи",
+  "users": [
+    {
+      "id": "u_intern_1",
+      "name": "Сергей Бодров",
+      "role": "intern",
+      "team": "backend-demo",
+      "cluster": "cluster-demo",
+      "start_date": "2026-11-09",
+      "program_months": 6,
+      "mentor_id": "u_mentor_1",
+      "manager_id": "u_manager_1",
+      "curator_id": "u_curator_1"
+    },
+    {
+      "id": "u_intern_2",
+      "name": "Виктор Сухоруков",
+      "role": "intern",
+      "team": "frontend-demo",
+      "cluster": "cluster-demo",
+      "start_date": "2026-10-12",
+      "program_months": 9,
+      "mentor_id": "u_mentor_2",
+      "manager_id": "u_manager_1",
+      "curator_id": "u_curator_1"
+    },
+    {
+      "id": "u_mentor_1",
+      "name": "Добромир Одинцов",
+      "role": "mentor",
+      "team": "backend-demo",
+      "cluster": "cluster-demo"
+    },
+    {
+      "id": "u_mentor_2",
+      "name": "Юрий Борисов",
+      "role": "mentor",
+      "team": "frontend-demo",
+      "cluster": "cluster-demo"
+    },
+    {
+      "id": "u_manager_1",
+      "name": "Алексей Балабанов",
+      "role": "manager",
+      "team": "backend-demo",
+      "cluster": "cluster-demo"
+    },
+    {
+      "id": "u_curator_1",
+      "name": "Ирина Салтыкова",
+      "role": "curator",
+      "team": "internship-program",
+      "cluster": "hr-demo"
+    }
+  ]
+}

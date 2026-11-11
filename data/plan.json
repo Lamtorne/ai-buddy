@@ -1,0 +1,251 @@
+{
+  "_note": "План адаптации по чек-листу стажёра",
+  "periods": [
+    { "id": "week_1", "label": "Неделя 1", "order": 1 },
+    { "id": "week_2", "label": "Неделя 2", "order": 2 },
+    { "id": "month_1", "label": "Месяц 1", "order": 3 },
+    { "id": "month_2", "label": "Месяц 2", "order": 4 },
+    { "id": "after_3_months", "label": "После 3 месяцев", "order": 5 }
+  ],
+  "items": [
+    {
+      "id": "i_chats",
+      "audience": "intern",
+      "period": "week_1",
+      "title": "Попросить добавить в ключевые каналы и чаты",
+      "description": "Напиши наставнику или руководителю и попроси добавить тебя во все рабочие каналы и чаты команды, в том числе закрытые.",
+      "action": "request_access",
+      "action_params": { "access_id": "team_chats" },
+      "kb_refs": ["first_weeks"]
+    },
+    {
+      "id": "i_access_tools",
+      "audience": "intern",
+      "period": "week_1",
+      "title": "Запросить доступы к рабочим программам и инструментам",
+      "description": "Запроси доступ к Confluence, Jira и другим инструментам, которые нужны в твоей команде.",
+      "action": "request_access",
+      "action_params": { "access_id": "jira" },
+      "kb_refs": ["access_requests"]
+    },
+    {
+      "id": "i_access_space",
+      "audience": "intern",
+      "period": "week_1",
+      "title": "Запросить доступ в пространство своей команды и изучить его",
+      "description": "Запроси доступ в пространство кластера и/или команды и изучи материалы.",
+      "action": "request_access",
+      "action_params": { "access_id": "confluence_team_space" },
+      "kb_refs": ["access_requests"]
+    },
+    {
+      "id": "i_meet_team",
+      "audience": "intern",
+      "period": "week_1",
+      "title": "Познакомиться с командой",
+      "description": "Познакомься с коллегами, с которыми будешь работать.",
+      "action": null,
+      "kb_refs": ["first_weeks"]
+    },
+    {
+      "id": "i_mentor_handbook",
+      "audience": "intern",
+      "period": "week_1",
+      "title": "Запросить у куратора методичку наставника",
+      "description": "Попроси куратора стажировки поделиться методичкой, чтобы понимать, чего ждать от работы с наставником.",
+      "action": null,
+      "kb_refs": ["curator_and_buddy"]
+    },
+    {
+      "id": "i_discuss_meetings",
+      "audience": "intern",
+      "period": "week_1",
+      "title": "Обсудить с наставником встречи, на которых был(а)",
+      "description": "Задай наставнику вопросы, которые появились после первых встреч.",
+      "action": null,
+      "kb_refs": ["one_on_one"]
+    },
+    {
+      "id": "i_notes",
+      "audience": "intern",
+      "period": "week_1",
+      "title": "Завести конспект встреч с наставником",
+      "description": "Фиксируй информацию о компании, обратную связь по работе и договорённости со встреч.",
+      "action": null,
+      "kb_refs": ["one_on_one"]
+    },
+    {
+      "id": "i_goals",
+      "audience": "intern",
+      "period": "week_1",
+      "title": "Обсудить цели, план адаптации и OKR",
+      "description": "Вместе с наставником или руководителем обсуди цели, критерии успешной стажировки и планы команды (OKR).",
+      "action": null,
+      "kb_refs": ["okr", "one_on_one"]
+    },
+    {
+      "id": "i_progress_tool",
+      "audience": "intern",
+      "period": "week_2",
+      "title": "Запросить инструмент отслеживания прогресса и внести цели",
+      "description": "Попроси у куратора инструмент для отслеживания прогресса стажёра и внеси в него цели, задачи и ожидания.",
+      "action": "request_access",
+      "action_params": { "access_id": "progress_tracker" },
+      "kb_refs": ["curator_and_buddy"]
+    },
+    {
+      "id": "i_study_docs",
+      "audience": "intern",
+      "period": "week_2",
+      "title": "Изучить документы и мануалы команды",
+      "description": "Изучи материалы, которыми поделились наставник и руководитель.",
+      "action": null,
+      "kb_refs": ["first_weeks"]
+    },
+    {
+      "id": "i_data_protection",
+      "audience": "intern",
+      "period": "month_1",
+      "title": "Изучить основы защиты персональных данных",
+      "description": "Ознакомься с лендингом «Защита данных», памяткой по раскрытию информации и политикой по работе с КИ.",
+      "action": null,
+      "kb_refs": ["data_protection"]
+    },
+    {
+      "id": "i_close_practice",
+      "audience": "intern",
+      "period": "month_2",
+      "title": "Изучить памятку, как закрывать практику и писать учебные работы",
+      "description": "Если стажировка засчитывается как практика, заранее разберись, как её закрыть и оформить учебные работы.",
+      "action": null,
+      "kb_refs": ["practice_closing"]
+    },
+    {
+      "id": "i_equator_workshops",
+      "audience": "intern",
+      "period": "after_3_months",
+      "title": "Подготовиться к экваторной встрече: мастер-классы",
+      "description": "Сходи на мастер-классы по подготовке (приглашения в календаре), посмотри материалы по презентациям и выступлениям.",
+      "action": null,
+      "kb_refs": ["equator"]
+    },
+    {
+      "id": "i_equator_presentation",
+      "audience": "intern",
+      "period": "after_3_months",
+      "title": "Подготовить презентацию и речь к экватору",
+      "description": "Оформи презентацию по заданной структуре, согласуй с куратором и наставником, при желании проведи репетицию.",
+      "action": null,
+      "kb_refs": ["equator"]
+    },
+    {
+      "id": "i_equator_meeting",
+      "audience": "intern",
+      "period": "after_3_months",
+      "title": "Выступить на экваторной встрече и прийти на подведение итогов",
+      "description": "Представь промежуточные результаты и приди на встречу с подведением итогов.",
+      "action": null,
+      "kb_refs": ["equator"]
+    },
+    {
+      "id": "i_graduation",
+      "audience": "intern",
+      "period": "after_3_months",
+      "title": "Прийти на выпускной и пройти опрос о стажировке",
+      "description": "Детали выпускного придут в приглашении в календаре. Опрос о стажировке поможет улучшить программу.",
+      "action": null,
+      "kb_refs": ["equator"]
+    },
+
+    {
+      "id": "m_chats",
+      "audience": "mentor",
+      "period": "week_1",
+      "title": "Добавить стажёра во все необходимые чаты и каналы",
+      "description": "Добавь стажёра во все нужные чаты и каналы, в том числе закрытые.",
+      "action": null,
+      "kb_refs": ["curator_and_buddy"]
+    },
+    {
+      "id": "m_check_access",
+      "audience": "mentor",
+      "period": "week_1",
+      "title": "Проверить, запросил ли стажёр все доступы",
+      "description": "Проверь, что стажёр запросил доступы к программам и пространствам (Confluence, Jira и т. д.).",
+      "action": "check_intern_access",
+      "kb_refs": ["access_requests"]
+    },
+    {
+      "id": "m_schedule_11",
+      "audience": "mentor",
+      "period": "week_1",
+      "title": "Назначить регулярные 1:1 со стажёром",
+      "description": "Назначь регулярные встречи 1:1: особенности работы в команде, инструменты, задачи.",
+      "action": null,
+      "kb_refs": ["one_on_one"]
+    },
+    {
+      "id": "m_goals",
+      "audience": "mentor",
+      "period": "week_1",
+      "title": "Обсудить цели, план адаптации и OKR",
+      "description": "Обсуди цели и план на период адаптации, критерии успешной стажировки, расскажи про OKR команды.",
+      "action": null,
+      "kb_refs": ["okr"]
+    },
+    {
+      "id": "m_equator_11",
+      "audience": "mentor",
+      "period": "after_3_months",
+      "title": "Провести 1:1 с промежуточными итогами",
+      "description": "Обсуди промежуточные итоги, дай обратную связь по прогрессу относительно целей.",
+      "action": null,
+      "kb_refs": ["equator", "one_on_one"]
+    },
+    {
+      "id": "m_equator_brief",
+      "audience": "mentor",
+      "period": "after_3_months",
+      "title": "Сходить на бриф для бадди и руководителей",
+      "description": "Бриф проходит перед экваторной встречей, приглашение в календаре.",
+      "action": null,
+      "kb_refs": ["equator"]
+    },
+    {
+      "id": "m_check_presentation",
+      "audience": "mentor",
+      "period": "after_3_months",
+      "title": "Проверить презентацию стажёра",
+      "description": "В презентации должны быть корректно отражены выполненные задачи и цели стажировки.",
+      "action": "check_intern_presentation",
+      "kb_refs": ["equator"]
+    },
+    {
+      "id": "m_rehearsal",
+      "audience": "mentor",
+      "period": "after_3_months",
+      "title": "Провести репетицию выступления (по просьбе стажёра)",
+      "description": "Если стажёр попросит, назначь встречу на 15 минут.",
+      "action": null,
+      "kb_refs": ["equator"]
+    },
+    {
+      "id": "m_farewell",
+      "audience": "mentor",
+      "period": "after_3_months",
+      "title": "Подготовить напутственное слово",
+      "description": "Подготовить благодарность за работу и поежлать успехов на остаток стажировки.",
+      "action": null,
+      "kb_refs": ["equator"]
+    },
+    {
+      "id": "m_attend_equator",
+      "audience": "mentor",
+      "period": "after_3_months",
+      "title": "Прийти на экваторную встречу стажёра",
+      "description": "Приглашение в календаре.",
+      "action": null,
+      "kb_refs": ["equator"]
+    }
+  ]
+}

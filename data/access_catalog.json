@@ -1,0 +1,97 @@
+{
+  "_note": "Каталог доступов для мок-сервиса. Все позиции вымышленные. Правила: allowed_roles + (опционально) team_scope.",
+  "accesses": [
+    {
+      "id": "jira",
+      "name": "Jira (проекты своей команды)",
+      "category": "tools",
+      "allowed_roles": ["intern", "mentor", "manager"],
+      "team_scope": "own_team",
+      "approver": "manager",
+      "sla_days": 1,
+      "typical_for": ["i_access_tools"]
+    },
+    {
+      "id": "confluence",
+      "name": "Confluence (общие пространства)",
+      "category": "tools",
+      "allowed_roles": ["intern", "mentor", "manager"],
+      "team_scope": "any",
+      "approver": "auto",
+      "sla_days": 0,
+      "typical_for": ["i_access_tools"]
+    },
+    {
+      "id": "confluence_team_space",
+      "name": "Confluence: пространство команды/кластера",
+      "category": "tools",
+      "allowed_roles": ["intern", "mentor", "manager"],
+      "team_scope": "own_team",
+      "approver": "mentor",
+      "sla_days": 1,
+      "typical_for": ["i_access_space"]
+    },
+    {
+      "id": "gitlab_team_repos",
+      "name": "GitLab: репозитории своей команды (чтение и MR)",
+      "category": "code",
+      "allowed_roles": ["intern", "mentor", "manager"],
+      "team_scope": "own_team",
+      "approver": "mentor",
+      "sla_days": 2,
+      "typical_for": ["i_access_tools"]
+    },
+    {
+      "id": "team_chats",
+      "name": "Чаты и каналы команды",
+      "category": "communication",
+      "allowed_roles": ["intern", "mentor", "manager"],
+      "team_scope": "own_team",
+      "approver": "mentor",
+      "sla_days": 0,
+      "typical_for": ["i_chats"]
+    },
+    {
+      "id": "progress_tracker",
+      "name": "Инструмент отслеживания прогресса стажёра",
+      "category": "internship",
+      "allowed_roles": ["intern"],
+      "team_scope": "any",
+      "approver": "curator",
+      "sla_days": 1,
+      "typical_for": ["i_progress_tool"]
+    },
+    {
+      "id": "grafana_readonly",
+      "name": "Grafana (только просмотр дашбордов команды)",
+      "category": "observability",
+      "allowed_roles": ["intern", "mentor", "manager"],
+      "team_scope": "own_team",
+      "approver": "manager",
+      "sla_days": 2,
+      "typical_for": []
+    },
+    {
+      "id": "prod_db_write",
+      "name": "Продовая БД (на запись)",
+      "category": "restricted",
+      "allowed_roles": ["manager"],
+      "team_scope": "own_team",
+      "approver": "manager",
+      "sla_days": 5,
+      "denial_reason": "Доступ на запись в продовую БД не выдаётся стажёрам. Если он нужен для задачи, обсуди это с наставником: он подскажет безопасную альтернативу.",
+      "typical_for": []
+    },
+    {
+      "id": "other_team_private_repo",
+      "name": "GitLab: закрытые репозитории другой команды",
+      "category": "restricted",
+      "allowed_roles": ["mentor", "manager"],
+      "team_scope": "other_team",
+      "approver": "manager",
+      "sla_days": 3,
+      "denial_reason": "Закрытые репозитории других команд стажёрам недоступны. Если нужен конкретный код, попроси наставника показать его или добавить в обсуждение.",
+      "typical_for": []
+    }
+  ]
+}

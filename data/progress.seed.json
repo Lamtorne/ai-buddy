@@ -1,0 +1,19 @@
+{
+  "_note": "Начальные статусы для демо.",
+  "progress": {
+    "u_intern_1": { "i_meet_team": "done", "i_mentor_handbook": "in_progress" },
+    "u_intern_2": {
+      "i_chats": "done",
+      "i_access_tools": "done",
+      "i_access_space": "done",
+      "i_meet_team": "done",
+      "i_mentor_handbook": "done",
+      "i_discuss_meetings": "done",
+      "i_notes": "done",
+      "i_goals": "done",
+      "i_progress_tool": "done",
+      "i_study_docs": "in_progress"
+    }
+  },
+  "access_requests": []
+}
